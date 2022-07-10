@@ -1,0 +1,51 @@
+# مكان وضع هذا الكود
+---
+:نفذ الآتى
+1. Ctrl+Shift+I 
+2. console tab 
+3. ضع الكود الموجود بالأسفل 
+
+# النوع الأول (لا يتوقف طالما بدأ)
+---
+```javascript
+function ClickConnect(){
+  console.log("Connnect Clicked - Start"); 
+  document.querySelector("#top-toolbar > colab-connect-button").shadowRoot.querySelector("#connect").click();
+  console.log("Connnect Clicked - End"); 
+};
+setInterval(ClickConnect, 60000) //reconnect every minute(60 seconds)
+```
+---
+---
+
+# النوع الأول (يمكن إيقافه)
+-------------------------------------------------------------------------------------------
+```javascript
+var startClickConnect = function startClickConnect(){
+    var clickConnect = function clickConnect(){
+        console.log("Connnect Clicked - Start");
+        document.querySelector("#top-toolbar > colab-connect-button").shadowRoot.querySelector("#connect").click();
+        console.log("Connnect Clicked - End"); 
+    };
+
+    var intervalId = setInterval(clickConnect, 60000);
+
+    var stopClickConnectHandler = function stopClickConnect() {
+        console.log("Connnect Clicked Stopped - Start");
+        clearInterval(intervalId);
+        console.log("Connnect Clicked Stopped - End");
+    };
+
+    return stopClickConnectHandler;
+};
+```
+### لتشغيل النوع الثانى
+------------
+```javascript
+var stopClickConnect = startClickConnect();
+```
+### لإيقاف النوع الثانى
+-----------------------------
+```javascript
+stopClickConnect();
+```
