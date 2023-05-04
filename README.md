@@ -32,3 +32,9 @@
 ![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)&nbsp;
 ![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)&nbsp;
 ![Jupyter](https://img.shields.io/badge/-Jupyter-05122A?style=flat&logo=Jupyter&logoColor=007ACC)&nbsp;
+
+<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Khaled-Mohammed-Abdelgaber&show_icons=true&locale=en&layout=compact&theme=radical" alt="most used languages" />
+<br>
+<a href="https://komarev.com/ghpvc/?username=Khaled-Mohammed-Abdelgaber&style=for-the-badge">
+    <img src="https://komarev.com/ghpvc/?username=Khaled-Mohammed-Abdelgaber&style=for-the-badge">
+</a>
