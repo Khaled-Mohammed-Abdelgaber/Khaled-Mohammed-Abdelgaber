@@ -16,7 +16,7 @@
 💬 Ask me about my experience with Python, Tensorflow, Pytorch, C++, and Deep Learning.<br />
 
 ### Research Area:
-👨‍🔬 My research interests include ECG waveform and PPG waveform analysis using deep learning techniques. Mainly ECG waveform reconstruction from PPG waveform.
+👨‍🔬 My research interests include ECG waveform and PPG waveform analysis using deep learning techniques, Mainly ECG waveform reconstruction from PPG waveform.
 
 ### Connect with Me :
 [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/Khaled-Mohammed-Abdelgaber)
