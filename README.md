@@ -35,7 +35,6 @@
 
 <a href=""> <img align="left" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Khaled-Mohammed-Abdelgaber&theme=react&line_height=40&hide=css"/> </a>
 
-
 <br>
 <a href="https://komarev.com/ghpvc/?username=Khaled-Mohammed-Abdelgaber&style=for-the-badge">
     <img src="https://komarev.com/ghpvc/?username=Khaled-Mohammed-Abdelgaber&style=for-the-badge">
